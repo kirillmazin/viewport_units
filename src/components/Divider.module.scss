@@ -1,0 +1,77 @@
+.container{
+
+    color: #233746;
+
+    
+}
+
+.top_wiggle{
+    position: absolute;
+    height:65px;
+    width: 100%;
+    background-repeat: repeat-x;
+}
+
+.bottom_wiggle{
+    width:100%;
+    position: absolute;
+    bottom:0px;
+   height:55px;
+ 
+  
+}
+
+
+.content{
+    position: relative;
+    display: flex;
+ 
+   
+
+    .left{
+  
+        width: 33%;
+        background-repeat: no-repeat;
+        background-size: 200px;
+        background-position: 0 260px;
+ 
+    }
+
+    .middle{
+    
+        padding: 16vh 0;
+  
+       
+        text-align: center;
+        width: 66%;
+        h3{
+            
+            text-transform: uppercase;
+            font-family: 'Roboto';
+            font-weight: 900;
+            letter-spacing:2px;
+            font-size: 16px;
+            
+        }
+        h2{
+            font-family: 'Roboto Slab';
+            font-weight: 900;
+           
+            font-size: 53px;
+        }
+    }
+
+
+    .right{
+  
+    
+        width: 33%;
+        background-repeat: no-repeat;
+        background-size: 200px;
+        background-position: right 0;
+    }
+}
+
+
+
+
